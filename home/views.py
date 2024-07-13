@@ -41,3 +41,5 @@ def remove_post(request, pk):
         post.delete()
         return redirect('/blog/')
     return render(request, 'home/remove_post.html', {'Post': post})
+
+# github test case
